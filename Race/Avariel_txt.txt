@@ -1,0 +1,56 @@
+>Avariel
+
+statistique perception
+Précision:+20
+Chance:+15
+Esquive:+10
+Habileté:+15
+Intelligence:+20
+Endurance:+0
+Furtivité:+10
+Charisme:+20
+
+statistique brute
+Vie:+2;2D10
+Force:+0;2D6
+Rapidité:+2;3D6
+Dextérité:+2;4D6
+Résistance:+1;
+Esprit:+0;2D4
+Déplacement: 6;+1/5_Rapidité
+
+compétence
+0;Immortalité elfique
+0;Vision elfique
+0;Vision dans le noir
+0;Détection des passages secrets
+0;Ailes d'avariel
+0;Sensibilité à l'éléctricité
+0;Ailes fragiles
+0;Régénération rapide
+100;Dextérité accrue
+100;Lévitation
+150;Ouïe fine
+150;Lecture de la magie
+200;Orientation aérienne
+250;Flèche acide de melf
+250;Sphère glaciale d'Otiluke
+300;Lecture des sentiements
+300;Vol sans ailes
+700;Appel d'esprit
+0;Immunité aux poisons
+0;Immunité aux maladie
+
+description
+"Les avariels sont un peuple d'elfes ailés ayant dominé le temps de l'avant déchéance par leur recherche sur les arcanes. Lors des grandes batailles de la première déchéance peu d'avariels survécurent et la grande majorité de leurs cités aériennes s'effondrèrent.
+
+De cette période de déclin subsiste sept grandes cités qui dominent encore les cieux du nouveau monde.  On y trouve toutes les plus grandes avancées de l'entre-monde. Les plus éminents architectes à magie différentielle y résident et passent leur temps dans des bibliothèque labyrinthique renfermant un savoir ancestral. La vie dans ces cités est paisible et facilité par une architecture magique omniprésente.
+
+Bien que très avancés par comparaison à leur cousins  terrestre, les elfes ailés n'ont pas décidé de fuir l'arrivé de la seconde déchéance en quittant ce plan. Pour la plupart d'entre eux la déchéance affectera les peuples inférieurs mais n'atteindra jamais les cieux. Par conséquent les cités avariels évitent en général tout contact avec l'extérieur.
+
+Les avariels sont donc très isolés du reste du monde. Leurs cités sont parfois associées à des nids d'avemains mais leur contact avec le reste du monde s'arrête là.
+La majorité des avariels regardent avec dédains les peuples terrestre qu'ils considèrent comme souillé par Tan. Parfois quelques avariels décident d'apporter leur savoir et de permettre ainsi aux peuples inférieurs d'accéder à l'élévation mais ces individus sont rares.
+
+Les personnages avariels sont de très bon magiciens ou archer. Leur sensibilité envers les cieux leur permet de s'intéresser à la préservation de la nature afin de devenir rodeur ou druide. Le caractère paisible des communautés avariels font que rare sont ceux qui se découvrent un intérêt pour la nécromancie ou les divers extrémismes religieux." 
+
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu

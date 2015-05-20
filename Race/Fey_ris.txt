@@ -1,0 +1,51 @@
+>Fey'ris
+
+statistique perception
+Précision:+20
+Chance:+10
+Esquive:+10
+Habileté:+20
+Intelligence:+15
+Endurance:+0
+Furtivité:+15
+Charisme:+20
+
+statistique brute
+Vie:+5;2D10
+Force:+2;2D6
+Rapidité:+6;3D6
+Dextérité:+4;4D6
+Résistance:+2;1D2
+Esprit:+2;2D4
+Déplacement: 7;+1/5_Rapidité
+
+compétence
+0;Ressentis de l'influence de TAN
+0;Perception fey'ris
+0;Changement pigmentaire
+0;Ailes démoniaque
+0;Queue démoniaque
+0;Yeux de démons
+0;Pistage olfactif
+0;Cuir de démon
+0;Démons intérieurs
+0;Paraphrénie infernal
+0;Pulsion du démon
+0;Démon sauvage
+
+
+description
+"Les fey'ris sont des hybrides nés de l'union entre un elfe et un démon.
+
+La cause de leur apparition est encore incertaine dans l'entre-monde. Actuellement une petite communauté de ces êtres déviants sévit dans les terres sauvages de Ceylin. Ces démons ne représentent pas de danger véritable pour les populations humaines puisqu'elles restent à proximité des ruines d'anciennes cités elfiques du continent nord.
+
+Les elfes et les succubes peuvent produire une engeance physiologiquement viable dans ce plan puisque ceux-ci se reproduisent désormais entre eux. Cependant plus de 90% de ces êtres ont une intelligence primaire et une agressivité extrêmement développée. Le reste de la population est souvent sujet à de nombreux troubles psychotiques.
+
+Rares sont les fey'ris capable de s'extirper de leur communauté. Notamment parce que ceux qui en sont capable intellectuellement sont souvent dévorés à la naissance et aussi car le monde des humains n'est généralement pas plus accueillant pour eux..."
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+
+Note de Maitre de séance : La race Fey'ris est une race nécessitant quelques règles supplémentaires
+
+Cette race est destinée à des joueurs aguerris au jeu de rôle
+Le Fey'ris est une race avant tout destinée à des joueurs appréciant l'incarnation d'un personnage complexe ou torturé avec une histoire travaillée
+Un joueur qui choisis de faire un Fey'ris doit être prêt à assumer son personnage quel que soit le ou les malus subis.
