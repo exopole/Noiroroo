@@ -1,0 +1,27 @@
+>demi-elfe
+
+statistique perception
+Précision:+15
+Chance:+10
+Esquive:+10
+Habileté:+15 
+Intelligence:+15 
+Endurance:+0
+Furtivité:+10
+Charisme:+15 
+
+statistique brute
+Vie:+5;2D10
+Force:+2;2D6
+Rapidité:+0;3D6
+Dextérité:+2;3D6
+Résistance:+0;1D3
+Esprit:+0;1D4
+Déplacement: 5;+1/5_Rapidité
+
+compétence
+350;Frappe chirurgicale mineure
+400;Frappe chirurgicale 
+
+description
+(si tu en as une, optionnel)
