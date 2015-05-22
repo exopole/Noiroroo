@@ -1,0 +1,45 @@
+>Demi-drow
+
+statistique perception
+Précision:+20
+Chance:+0
+Esquive:+15
+Habileté:+15
+Intelligence:+15
+Endurance:+15
+Furtivité:+20
+Charisme:+10
+
+statistique brute
+Vie:+2;3D10
+Force:+2;3D6
+Rapidité:-1;3D6
+Dextérité:+0;3D6
+Résistance:+3;1D6
+Esprit:+0;1D5
+Déplacement: 6;+1/5_Rapidité
+
+compétence
+0;Vision nocturne
+0;Régénération rapide
+100;Dextérité accrue
+100;Force accrue
+100;Furtivité accrue du drow
+150;Ambidextrie légère
+0;Immunité aux poisons
+
+
+
+
+description
+"Les demi-drows sont des êtres issues de l'union entre humain et drow. Les individus nés de cette union sont tout à fait viable et ont la capacité de se reproduire avec les drows ou les humains.
+
+A la surface, les demi-drows se trouvent en général aux alentours de Manta. Même si ils n’héritent pas nécessairement de l'agressivité de leur parent drow, ils ont bien souvent ses traits et sa réputation. Les drows étant un peuple esclavagistes effectuant régulièrement des raids sur les populations de la surface, ils sont donc combattus et pourchassés par ces même populations.
+
+Dans les profondeurs de l'outre-terre les semi-drows n'ont pas plus d'espoir de survie. En effet les drows ont des croyances  eugénistes très développées. La pureté de leur lignée est donc une priorité de premier ordre.
+
+Les demi-drows survivants ne sont donc les bienvenus nul part. Le maigre avantage physique dont ils bénéficient est par conséquent bien maigre en comparaison à la difficulté que représente leur survie.
+
+Bénéficiant de la sensibilité aux arcanes magiques ainsi que de la robustesse de leur parent drow , les demi-drow sont capable d'une grande adaptation concernant leur vocation. "
+
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
