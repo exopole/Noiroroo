@@ -1,0 +1,44 @@
+>Demi-elfe
+
+statistique perception
+Précision:+15
+Chance:+10
+Esquive:+10
+Habileté:+15
+Intelligence:+15
+Endurance:+0
+Furtivité:+10
+Charisme:+15
+
+statistique brute
+Vie:+5;2D10
+Force:+2;2D6
+Rapidité:+0;3D6
+Dextérité:+2;3D6
+Résistance:+0;1D3
+Esprit:+0;1D4
+Déplacement: 5;+1/5_Rapidité
+
+compétence
+0;Vision nocturne
+0;Régénération rapide
+100;Dextérité accrue
+
+description
+"Un demi-elfe... Dans le monde il y aura bientôt plus de demi que d'entier moi je te le dis... Depuis que les elfes ont carapaté vers on ne sait où et que les derniers restant se sont fondus dans la masse il n'y a plus que ça.
+
+Vous avez entendus... C’est que vous avez une bonne audition avec ces pointes... mais ne le prenez pas mal ! Au contraire, vous êtes la relève ! Plus habile que les hommes et plus vigoureux que votre parent elfique vous représentez l'avenir. Avec un tel héritage toutes les vocations sont possibles pour vous.
+
+Nous les nains, nous regardons avec nostalgie notre gloire passée. Les elfes ont disparus où dégénère à s'en faire pousser des ailes. Les hommes passent leur temps à se faire la guerre... entre eux parce que sinon c'est pas drôle.
+
+Non, non, non ! Vous mon grand monsieur vous représentez de l’espoir !
+
+Puis vous avez nombre de communauté où faire halte. Des cycles à Mantalivia, toutes les portes vous sont ouvertes. Oui... enfin presque."
+
+Extrait d'une discussion commerçante de Kernaff  dernier apprenti de Baldruin (l'ainé des nains)
+
+Note de Maitre de séance :
+
+Description physique : Souvent un peu plus grand qu'un homme et plus fin les demi-elfe gardent les oreilles pointus de leur ascendance elfique. Il arrive qu'ils héritent de yeux violet, argentés ou dorés.
+Classes conseillées : Magiciens ou combattants à distance
+Accessible pour tout joueur
