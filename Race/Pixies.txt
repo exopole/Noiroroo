@@ -1,0 +1,55 @@
+>Pixie
+
+statistique perception
+Précision:+15
+Chance:+20
+Esquive:+5
+Habileté:+10
+Intelligence:-20
+Endurance:-20
+Furtivité:+20
+Charisme:+15
+
+statistique brute
+Vie:+0;1D10
+Force:+1;
+Rapidité:+3;4D6
+Dextérité:+0;2D6
+Résistance:+0;
+Esprit:+3;2D6
+Déplacement: 15;+1/5_Rapidité
+
+compétence
+0;Esquive surhumaine
+0;Vol
+0;Surcharge Élémentaire
+0;Télépathie 
+0;Télékinésie 
+0;Lecture de la Magie
+0;Identification d'objet magique 
+0;Adaptation subjective d'Objet
+0;Sort Charismatique 
+0;Disparition
+0;Poche dimensionnelle
+0;Attaque magique
+
+
+
+description
+
+"La regium fae ou pixie est la variété de fée la plus rare. Sa taille varie entre 30 et 50 cm et ses traits physique sont ceux des populations du lieu où elle s'éveille. Contrairement aux idées reçues, les pixies sont asexués mais peuvent développer un physique masculin ou féminin.
+
+Les pixies sont des être surprenant en bien des points. A la différence des fée sauvages, les pixies ont des facultés intellectuelles raisonnablement développées. Ainsi lors de mes études à dans le cœur de Holm j'ai eu l'occasion d'observer un pixie dénommé Kerdonis ayant développé des capacités de mage en s'éveillant à proximité de l'école de magie.
+[...]
+
+Bien souvent les pixies développent une curiosité intellectuelle importante et cherchent à comprendre l'origine de leur apparition. "
+
+Kereris Touleille extrait de « De l'énergie à la génération spontanée ».
+
+Note de Maitre de séance :
+
+Description physique : Les pixies sont des fées mesurant une quarantaine de centimètre. Leur apparence prend les traits des humanoïdes du lieu de leur éveil.
+
+Classes conseillées : Magiciens fortement conseillés
+
+Accessible pour tout joueur qui ne craint pas la perte de son personnage (les fées sont très fragiles) 

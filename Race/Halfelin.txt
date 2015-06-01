@@ -1,0 +1,52 @@
+>Halfelin
+
+statistique perception
+Précision:+0
+Chance:+0
+Esquive:+0
+Habileté:+0
+Intelligence:+0
+Endurance:+0
+Furtivité:+20
+Charisme:+20
+
+statistique brute
+Vie:-5;3D10
+Force:+0;2D6
+Rapidité:+2;3D6
+Dextérité:+0;3D6
+Résistance:+0;1D6
+Esprit:+0;1D4
+Déplacement: 5;+1/5_Rapidité
+
+compétence
+0;Esquive surhumaine
+75;Rapidité accrue
+100;Repérage des objets
+100;Repérage des passage secrets
+
+
+
+
+description
+"Ah non c'est complètement faux !
+
+Les halfelins ne sont pas le stéréotype qu'on entend à longueur de journée. Et puis au passage si je n'avais pas chipé quelques bricoles à Ivilir on s'en serait pas sorti sur le terrain.
+
+Vous généralisez, mais les sociétés halfelins à travers le monde sont bien plus importantes que vous ne le pensez ! ça ne s'arrête à pas au village marchand d'Honrville.
+
+Premier exemple : comme l'illustre mon camarade "Seiyar" à l'est des cycles la communauté ancestrale sage-spectre veille depuis des générations sur le signe céruléen permettant de nous sauver de l'emprise des aberrations !
+
+Deuxième exemple : les production de la famille Delford sont à la pointe de la technologie en matière de flotte volante et de canonnière à spirule !
+
+Et Miaguardor ! Le plus grand chirurgien qui soit !"
+
+Oscibar à Kernaff sur le pont du faucon vaillant quelques semaines après la bataille du Kependaïr
+
+Note de Maitre de séance :
+
+Description physique : Les halfelins sont des humanoïdes sveltes de petite tailles pouvant atteindre 1m10 de hauteur. Ils ont les oreilles fines et allongés.
+
+Classes conseillées : Toutes sauf guerriers
+
+Accessible pour tout joueur

@@ -1,0 +1,48 @@
+>Lumi
+
+statistique perception
+Précision:+15
+Chance:+20
+Esquive:+5
+Habileté:+10
+Intelligence:-20
+Endurance:-20
+Furtivité:-20
+Charisme:+15
+
+statistique brute
+Vie:+0;1D10
+Force:+1;
+Rapidité:+3;4D6
+Dextérité:+0;2D6
+Résistance:+0;
+Esprit:+3;2D6
+Déplacement: 15;+1/5_Rapidité
+
+compétence
+0;Vol
+0;Sort charismatique
+0;Coeur émotionnel
+0;Particule stellaire
+0;Bombe d'éclat lumineux
+75;Esprit accrue de lumi
+
+
+
+description
+
+"La lux fae ou plus communément dénommée lumi est une variété de fée aérienne appartenant à la famille des fée sauvages.
+
+Les lumis sont des fées moins communes dans les royaumes humains. Avant leur éveil elles errent dans les cieux et s'approchent des sources de lumière.
+
+Lorsqu'elles sont soumises à un stimuli intense celles-ci développent une conscience temporelle de leur existence et de la différenciation avec leur environnement."
+
+Kereris Touleille extrait de « De l'énergie à la génération spontanée ».
+
+Note de Maitre de séance :
+
+Description physique : Les lumis sont des fées mesurant une dizaine de centimètre. Leur peau est blanche et elles irradient une aura lumineuse changeante en fonction de leurs émotions.
+
+Classes conseillées : Magiciens fortement conseillés
+
+Accessible pour tout joueur qui ne craint pas la perte de son personnage (les fées sont très fragiles) 

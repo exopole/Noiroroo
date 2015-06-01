@@ -1,0 +1,53 @@
+>Drow
+
+statistique perception
+Précision:+10
+Chance:+0
+Esquive:+10
+Habileté:+10
+Intelligence:+5
+Endurance:+10
+Furtivité:+15
+Charisme:+10
+
+statistique brute
+Vie:+5;3D10
+Force:+0;4D6
+Rapidité:+0;3D6
+Dextérité:+0;4D6
+Résistance:+0;2D6
+Esprit:+0;1D6
+Déplacement: 6;+1/5_Rapidité
+
+compétence
+0;Immortalité elfique
+0;Vision drow
+0;Régénération rapide
+0;Malédiction drow
+75;Dextérité accrue
+75;Force accrue
+100;Furtivité accrue du drow
+150;Ambidextrie légère
+150;Repérage des tunnels 
+300;Flèche acide de Melf
+300;Sphère glaciale d'Otiluke
+300;Maitre des tortures
+0;Immunité aux poisons
+0;Immunité aux maladies
+
+description
+"Humanoïde aux traits elfiques ne supportant pas la lumière du jour, les drows vivent dans les profondeurs de Manta. Leur peau est bleu foncé ou noire, leur pilosité est entièrement blanche et leurs yeux sont rouges ou jaunes.
+
+Les communautés drows sont réputées pour être des esclavagistes sans pitiés voir des alliés du démon! Ils sont donc pourchassés et encourent une peine de mort immédiate dans la plus part des contrés de la surface ( principalement dans Mantalivia, Manta ou Cinide). 
+
+Enfin tout ça c’est des histoires, notre Aelian est le plus brave des mages qui soit.
+
+Mais pourquoi cette question en fait ? Vous en voyez pas dans les cycles ?"
+
+Oscibar dans une discussion de bar à Lumeria
+
+Note de Maitre de séance :
+
+Description physique : Les drows ont une taille équivalente à celle d'un humain. Leur peau est oscille entre une bleu sombre et le noir. Leur pilosité est systématiquement blanche. Leurs yeux sont rouges ou violet.
+Classes conseillées : Toutes accessibles
+Accessible pour joueur expérimenté

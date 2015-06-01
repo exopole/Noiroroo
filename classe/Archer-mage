@@ -1,0 +1,47 @@
+>Archer-mage
+
+statistique perception
+Précision:+15
+Chance:+10
+Esquive:+10
+Habileté:+10
+Intelligence:+15
+Endurance:+0
+Furtivité:+5
+Charisme:+10
+
+statistique brute
+Vie:-3;
+Force:+0;
+Rapidité:+2;
+Dextérité:+2;
+Résistance:-1;
+Esprit:+3;
+
+compétence
+75;Premier secours
+75;Dextérité accrue
+100;Esprit accrue
+100;Flèche perforante
+100;Précision accrue
+100;Rechargement d'arbalète rapide
+100;Tir longue portée
+100;Lecture de la magie
+150;Tir à bout portant
+200;Flèche de feu
+200;Flèche de glace
+200;Flèche d'eau
+200;Flèche de lumière
+200;Flèche de ténèbres
+200;Flèche végétale
+200;Flèche d'air
+200;Flèche éblouissante
+200;Couverture
+
+description
+
+L'archer mage a subit un enseignement d'école pour canaliser ses pouvoirs magiques. En générale la formation dure entre 2 et 4 ans. Elle peut se faire dans des écoles de mage où l'enseignement est accompagné d'une réflexion conséquente sur l'utilisation, les conséquences et la théorie de la magie (implique donc un sens moral plus réfléchi). L'enseignement peut aussi se faire dans des écoles militaires (par exemple l'empire de Ceylin, l'armée des peuples libre de Mantalivia etc.) où l'implication morale n'est pas forcément très développée.
+
+Les archer-mages sont des guerriers peu robustes utilisant leur arc et leurs flèches comme catalyseurs afin de lancer leur sortilèges. Ils peuvent être de bon éclaireur, un soutiens conséquent dans une bataille et sont assez adaptables. Leur défaut principal est d'avoir une faiblesse physique conséquente (résistance, vie et force).
+
+Les race privilégiant l'archer-mage sont en général les races dextres (les elfes, les drows, les demi-elfe, les demi-drow, avariel) ou les races possédant des écoles de magies ou une structure militaire conséquente (humain, drows, elfes, avariels, avemains). Il arrive que des ronsos suivent cet enseignement pour leur sens de la magie développé et leur agilité mais cela implique une coupe quotidienne des griffes…
