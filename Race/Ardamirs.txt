@@ -1,0 +1,51 @@
+>Ardamir
+
+statistique perception
+Précision:+15
+Chance:+10
+Esquive:+20
+Habileté:+10
+Intelligence:-20
+Endurance:-20
+Furtivité:-20
+Charisme:+15
+
+statistique brute
+Vie:+0;1D10
+Force:+1;
+Rapidité:+3;4D6
+Dextérité:+0;2D6
+Résistance:+0;
+Esprit:+3;2D6
+Déplacement: 15;+1/5_Rapidité
+
+compétence
+0;Vol
+0;Sort charismatique
+0;Respiration aquatique
+0;Liberté de mouvement aquatique
+0;Ressenti des flux marins et aériens
+200;Choc éléctrique
+0;Immunité à l'éléctricité
+0;Vague dévastatrice
+0;Création de tourbillon
+0;Appel à la tempête
+
+
+description
+
+"L'aqua fae ou ardamir selon l’appellation elfique, fait partie des 3 espèces de fée dites sauvages. Les peuples des cycles de paradis les surnomment également "guide-barque" puisque ceux-ci permettent de détecter la survenue de tempête en pleine mer.
+
+Les ardamirs sont des féériques de petite taille en comparaison de leurs cousins pixies. Sous forme larvaire ils mesurent 1 à 3 cm et sont dépourvus d'ailes. Une fois éveillés ils peuvent atteindre une quinzaine de centimètres.
+
+Les ardamirs vivent en colonie allant de 20 à 100 individus suivant les courants marins. Très rarement, une des larves s'éveille lorsqu'elle est soumise à un stimuli fort."
+
+Kereris Touleille extrait de « De l'énergie à la génération spontanée ».
+
+Note de Maitre de séance :
+
+Description physique : Les ardamirs sont des fées mesurant une dizaine de centimètre. Leur peau est bleuté et ils irradient une aura lumineuse changeante en fonction du climat.
+
+Classes conseillées : Magiciens fortement conseillés
+
+Accessible pour joueur expérimenté

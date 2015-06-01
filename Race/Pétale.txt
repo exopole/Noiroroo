@@ -1,0 +1,50 @@
+>Pétale
+
+statistique perception
+Précision:+15
+Chance:+10
+Esquive:+15
+Habileté:+10
+Intelligence:-20
+Endurance:-20
+Furtivité:+20
+Charisme:+15
+
+statistique brute
+Vie:+0;1D10
+Force:+1;
+Rapidité:+3;4D6
+Dextérité:+0;2D6
+Résistance:+0;
+Esprit:+3;2D6
+Déplacement: 15;+1/5_Rapidité
+
+compétence
+0;Empathie animale 
+0;Vol
+0;Sort charismatique
+0;Camouflage dans le nature
+0;Changement saisonnier
+200;Croissance végétal démesuré 
+0;Don d'Esprit végétal
+0;Transformation en animal sanguinaire
+
+
+
+description
+
+"La plasmodesmata fae ou plus couramment appelée pétale est une fée sauvage qui apparait le plus souvent au sein de bosquet druide.
+
+Druide inné, ces pétales très impulsives perturbent bien souvent leur milieu naturel. Leur capacité à changer les saisons et le climat local peuvent en faire des alliés redoutables ou au contraire de véritables cauchemars pour les agriculteurs locaux.
+
+La plasmodesmata fae a un éveil progressif assez constant. Dans neuf cas sur dix l'échange verbal prolongé avec une pétale déclenche son éveil."
+
+Kereris Touleille extrait de « De l'énergie à la génération spontanée ».
+
+Note de Maitre de séance :
+
+Description physique : Les pétales sont des fées mesurant une dizaine de centimètre. La forme et les couleurs de leur corps s'inspire de végétaux environnant la pétale.
+
+Classes conseillées : Magiciens fortement conseillés
+
+Accessible pour tout joueur qui ne craint pas la perte de son personnage (les fées sont très fragiles) 

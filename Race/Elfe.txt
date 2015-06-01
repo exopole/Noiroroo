@@ -1,0 +1,54 @@
+>Elfe
+
+statistique perception
+Précision:+20
+Chance:+15
+Esquive:+10
+Habileté:+15
+Intelligence:+20
+Endurance:+0
+Furtivité:+10
+Charisme:+20
+
+statistique brute
+Vie:+4;2D10
+Force:+0;2D6
+Rapidité:+2;3D6
+Dextérité:+2;4D6
+Résistance:+0;2D4
+Esprit:+0;1D2
+Déplacement: 6;+1/5_Rapidité
+
+compétence
+0;Immortalité elfique
+0;Vision elfique
+0;Vision dans le noir
+0;Détection des passages secrets
+0;Régénération rapide
+75;Dextérité accrue
+150;Ouïe fine
+150;Lecture de la magie
+250;Flèche acide de Melf
+250;Sphère glaciale d'Otiluke
+300;Lecture des sentiments
+700;Appel d'esprit
+0;Immunité aux poisons
+0;Immunité aux maladies
+
+description
+
+"Humanoïde à la grâce inégalée, les elfes font partie des plus anciennes civilisations de l'entre-monde. Cependant après l'arrivée de Tan, la plupart d'entre eux se sont progressivement isolés du reste du monde au fil des années. De nombreuses communautés elfiques se rassemblèrent dans Forok avec pour but de repenser leurs modes de vie.
+
+Ils font partie des rares races d'humanoïdes ayant développé la capacité de créer des portails stables entre les plans. Impuissant face à la déchéance du monde la majorité des elfes quittèrent l'entre-monde afin d'accéder aux plans supérieurs.
+
+Les elfes restant étaient souvent des originaux vivant avec d'autres communautés humanoïdes."
+
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+
+Note de Maitre de séance :
+
+Description physique : Les elfes sont légèrement plus fin et élancé que les humains. Ils sont systématiquement blonds (mais utilisent souvent des teintures exotiques). La couleur de leurs yeux est souvent fait d'un panel de bleu, vert, doré et parfois violet.
+
+Classes conseillées : Combattants à distance ou magiciens
+
+Accessible pour joueur appréciant le "role-play"

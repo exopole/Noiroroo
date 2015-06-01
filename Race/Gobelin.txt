@@ -1,0 +1,46 @@
+>Gobelin
+
+statistique perception
+Précision:+0
+Chance:+0
+Esquive:+10
+Habileté:+10
+Intelligence:+10
+Endurance:+10
+Furtivité:+15
+Charisme:-10
+
+statistique brute
+Vie:+6;2D8
+Force:+0;2D6
+Rapidité:+0;3D6
+Dextérité:+0;2D6
+Résistance:+0;1D4
+Esprit:+0;1D3
+Déplacement: 5;+1/5_Rapidité
+
+compétence
+0;Esquive surhumaine
+0;Ouïe fine
+0;Ouïe fine
+0;Orientation souterraine
+0;Estomac de gobelin
+0;Attaque de charge
+
+
+
+
+description
+ "Les gobelins font parties des races considérées comme inférieures de l'entre-monde. Leur capacité d'adaptation et de reproduction importante en fait néanmoins des travailleurs intéressants.
+
+Dans les territoires souterrains les gobelins sont souvent soumis à l'esclavage par les drow et d'autres population Goblinoïdes plus robustes."
+
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+
+Note de Maitre de séance :
+
+Description physique : Les gobelins sont des humanoïdes de petite taille pouvant atteindre 1m20 de hauteur. Leur peau est marron ou jaunâtre. Ils possèdent de grandes oreilles prolongées. Leur visage est parcheminé de rides profondes.
+
+Classes conseillées : Roublard ou classes de magiciens
+
+Accessible pour joueur ayant un intérêt particulier pour le "role play"
