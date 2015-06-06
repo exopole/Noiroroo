@@ -1,0 +1,49 @@
+>Saurus
+
+statistique perception
+Précision:+0
+Chance:+0
+Esquive:+10
+Habileté:+0
+Intelligence:+0
+Endurance:+0
+Furtivité:+0
+Charisme:-10
+
+statistique brute
+Vie:+3;3D10
+Force:+0;3D6
+Rapidité:+2;3D6
+Dextérité:+0;3D6
+Résistance:+3;1D6
+Esprit:+3;1D4
+Déplacement: 6;+1/5_Rapidité
+
+compétence
+0;Résistance aux poisons
+0;Sang-froid
+0;Spécialiste 
+0;Spécialiste Spirituel 
+0;Spécialiste de traque
+0;Enfants des jungles
+0;Mue d’écailles évolutives
+0;Métamorphose des tissus musculaires
+0;Régénération reptilienne
+
+description
+"Le terme Saurus, ou  "Homme-lézard" dans les communautés humaines désigne les différentes races d'humanoïdes reptiliens intelligents. Ce sont des humanoïdes à sang froid de taille variable (1m à 3m50) à à la peau recouverte d'écailles.
+
+Les Saurus sont des spécialistes choisissant un rôle spécifique au sein de leur tribu : magicien ou combattant."
+
+Extrait de parchemin de l'étagère 2348 colonne 329 de la salle pré-déchéance du bâtiment H de la maison des archives de Libris (cité avarielle du nord)
+
+"La diversité de la population saurus s'est grandement réduite depuis l'arrivée de Tan.  Désormais les saurus désignent usuellement les peuplades hommes lézard à l'est de Plaevia qui servent et protègent la population de Slan.
+
+Les saurus et les Slan vivent assez simplement dans une jungle hostile. Il semblerait que l'aura de protection érigée par les eldarins fonctionne encore sur ces terres."
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+
+Note de Maitre de séance :
+
+Description physique : Les saurus sont de grand humanoïde reptilien (2m à 2m20) aux écailles vertes ou bleutées.
+Classes conseillées : Toutes classes
+Accessible pour joueur confirmé

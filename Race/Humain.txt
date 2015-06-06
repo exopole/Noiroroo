@@ -1,0 +1,42 @@
+>Humain
+
+statistique perception
+Précision:+0
+Chance:+0
+Esquive:+0
+Habileté:+0
+Intelligence:+0
+Endurance:+0
+Furtivité:+0
+Charisme:+0
+
+statistique brute
+Vie:+0;3D10
+Force:+2;3D6
+Rapidité:+0;3D6
+Dextérité:+2;2D6
+Résistance:+0;1D4
+Esprit:+0;1D2
+Déplacement: 5;+1/5_Rapidité
+
+compétence
+0;Éveil rapide
+0;Dons de curiosité
+0;Expérience multiple
+
+
+
+
+description
+
+"Les humains font partis des anciennes races. Ils existaient bien avant la première déchéance. Ce sont des humanoïdes de taille moyenne (1m60 à 1m90) à la peau mate, peu velue et facilement identifiable grâce à leurs oreilles arrondies.
+
+L'humain est probablement la race la plus adaptable de l'entre-monde. Sa vie est courte, avec une espérance de vie d'une petite centaine d'année et par conséquent son apprentissage est aussi rapide."
+
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+
+Note de Maitre de séance :
+
+Description physique : Les humains sont des humanoïde à la peau mate de taille variable (1m60 à 1m90)
+Classes conseillées : Toutes classes
+Accessible pour joueur débutant
