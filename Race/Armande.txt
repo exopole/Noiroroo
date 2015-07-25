@@ -20,16 +20,16 @@ Esprit:+0;1D4
 Déplacement: 3;+1/5_Rapidité
 
 compétence
-0;Liberté de mouvement dans les sables
-0;Griffes naturelles
-0;Libre esquive des sables
-100;Résistance accrue
-100;Force accrue
-100;Furtivité accrue de l'armande
-400;Base inébranlable
+0;Liberté de mouvement dans les sables:Accorde 10 de déplacement bonus à l'armande et l'empêche d'être entravé dans les sables
+0;Griffes naturelles:L'armande a des armes naturelles infligeant 4 de dégâts bonus mais conférant à l'armande un malus de 30 en précision eten habileté pour la manipulation des objets
+0;Libre esquive des sables:-10 aux jets d'esquive dans le sable
+100;Résistance accrue:+1 de résistance par niveau. Niveau maximal:5
+100;Force accrue:+1 de force par niveau. Niveau maximal:5
+100;Furtivité accrue de l'armande:+10 en furtivité
+400;Base inébranlable:L'armande qui utilise cette compétence enfonce ses pattes arrières dans le sol, gagne 10 de résistance tant qu'elle reste immobile et -50 aux jets de résistance au chute ainsi que -20 aux jets de parade
 
 description
-"L'armande est un humanoïde de petite taille (85 à 95 cm de hauteur) vivant dans les déserts des continents de l’extrême ouest. Ces créatures sont particulièrement agiles dans le sable et peuvent s'y déplacer comme si elles y nageaient, sur terre elles.
+"L'armande est un humanoïde de petite taille (85 à 95 cm de hauteur) vivant dans les déserts des continents de l’extrême ouest. Ces créatures sont particulièrement agiles dans le sable et peuvent s'y déplacer comme si elles y nageaient, sur terre elles sont bien moins agiles.
 
 Les tribus d'armande ont une organisation généralement matriarcale.
 
@@ -38,3 +38,11 @@ Certaines communautés d'armande du nord se nomme les sages-spectre. Ces tribus 
 La majorité des héros armandes sont des moines (de croyance animiste) qui utilisent leur art pour la protection. La proximité des armandes pour la nature leur permet de devenir facilement druide également. Les classes nécessitant un maniement d'objet ou d'armures sont en général évités par les héros armande."
 
 "Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+
+Note de Maitre de séance :
+
+Description physique : L'armande est un humanoïde de petite taille (les adultes mesurent jusqu'à 95cm à l'âge adulte). Son corps est couvert de petites plaques osseuses lui servant d'armure naturelle.
+
+Classes conseillées : Moine
+
+Accessible pour joueur expérimenté

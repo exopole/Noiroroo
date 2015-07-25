@@ -35,7 +35,7 @@ compétence
 
 
 description
-"Les fey'ris sont des hybrides nés de l'union entre un elfe et un démon.
+"Les fey'ris sont des hybrides entre un elfe et un démon.
 
 La cause de leur apparition est encore incertaine dans l'entre-monde. Actuellement une petite communauté de ces êtres déviants sévit dans les terres sauvages de Ceylin. Ces démons ne représentent pas de danger véritable pour les populations humaines puisqu'elles restent à proximité des ruines d'anciennes cités elfiques du continent nord.
 
@@ -44,8 +44,13 @@ Les elfes et les succubes peuvent produire une engeance physiologiquement viable
 Rares sont les fey'ris capable de s'extirper de leur communauté. Notamment parce que ceux qui en sont capable intellectuellement sont souvent dévorés à la naissance et aussi car le monde des humains n'est généralement pas plus accueillant pour eux..."
 "Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
 
-Note de Maitre de séance : La race Fey'ris est une race nécessitant quelques règles supplémentaires
+Note de Maitre de séance :
 
-Cette race est destinée à des joueurs aguerris au jeu de rôle
+Description physique : Traits d'un elfe avec un physique variable en fonction des malus
+Classes conseillées : Toutes classes sans restriction
+Accessible pour joueur expérimenté 
+
+La race Fey'ris est une race nécessitant quelques précisions supplémentaires :
+
 Le Fey'ris est une race avant tout destinée à des joueurs appréciant l'incarnation d'un personnage complexe ou torturé avec une histoire travaillée
 Un joueur qui choisis de faire un Fey'ris doit être prêt à assumer son personnage quel que soit le ou les malus subis.

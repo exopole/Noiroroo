@@ -3,7 +3,7 @@ import java.util.Vector;
 
 public class Classe {
 
-	private String name;
+	private String name; 
 	private String description;
 	private Vector<Double> statPerception;
 	private Vector<Double> statBrute;

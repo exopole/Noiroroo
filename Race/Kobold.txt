@@ -1,0 +1,50 @@
+>Kobold
+
+statistique perception
+Précision:+0
+Chance:+0
+Esquive:+10
+Habileté:+10
+Intelligence:+0
+Endurance:-20
+Furtivité:+15
+Charisme:-10
+
+statistique brute
+Vie:+6;2D4
+Force:+0;1D6
+Rapidité:+0;3D6
+Dextérité:+0;2D6
+Résistance:+0;1D2
+Esprit:+0;1D2
+Déplacement: 4;+1/5_Rapidité
+
+compétence
+0;Esquive surhumaine
+0;Vision de l'ombre
+0;Orientation souterraine
+0;Attaque en meute 
+0;Koboldomancie 
+
+
+
+
+Description :
+
+"Lors de mes première observation de l'entre-monde je suis tombé par hasard sur une cérémonie traditionnelle kobold. Contrairement à ce que disait les être de la surface leur folklore était assez sophistiqué et empreint de multitude de codes.
+
+La cérémonie à laquelle j’assistai était organisée suite à une chasse fructueuse. Une série de manipulation était organisée en l'honneur d'un shamane qui dirigeait les opérations. De multiples danses se suivaient laissant place à quelques sacrifices qui devaient précéder l'ouverture d'un grand brasier par le shamane.
+
+Cependant dans cet espace confiné où abonde alcool et fumée, le shamane ne put contrôler son sort et déclencha un énorme incendie. Les peintures corporelles faites à base d'huile n'arrangèrent pas la situation. Rapidement toute la petite tribu fut consumée par cette légère maladresse.
+
+De nos jours les kobolds n'existent presque plus dans l'entre-monde. Quelques rare tribus isolées ont dues développer un instinct de survie un peu plus avancé que leurs ancêtres..."
+
+"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+
+Note de Maitre de séance :
+
+Description physique : Les kobold sont des créatures humanoïdes de petites tailles aux traits fin et agressifs.
+
+Classes conseillées : Alchimistes et magiciens
+
+Accessible pour joueur expérimenté et appréciant le role-play

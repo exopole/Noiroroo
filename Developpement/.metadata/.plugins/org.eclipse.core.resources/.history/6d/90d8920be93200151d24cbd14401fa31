@@ -1,0 +1,30 @@
+
+public class competence {
+	
+	private String nom;
+	private String description;
+	private String typeDeCompetence;
+	private String Nature;
+	private int levelMax;
+	private float tempsIncantation;
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getTypeDeCompetence() {
+		return typeDeCompetence;
+	}
+	public void setTypeDeCompetence(String typeDeCompetence) {
+		this.typeDeCompetence = typeDeCompetence;
+	}
+	
+	
+}

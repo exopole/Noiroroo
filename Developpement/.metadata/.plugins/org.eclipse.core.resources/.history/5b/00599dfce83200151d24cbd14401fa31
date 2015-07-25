@@ -1,0 +1,8 @@
+
+public class competence {
+	
+	private String nom;
+	private String description;
+	
+	
+}

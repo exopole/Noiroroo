@@ -20,26 +20,26 @@ Esprit:+0;2D4
 Déplacement: 6;+1/5_Rapidité
 
 compétence
-0;Immortalité elfique
-0;Vision elfique
-0;Vision dans le noir
-0;Détection des passages secrets
-0;Ailes d'avariel
-0;Sensibilité à l'éléctricité
-0;Ailes fragiles
-0;Régénération rapide
-100;Dextérité accrue
-100;Lévitation
-150;Ouïe fine
-150;Lecture de la magie
-200;Orientation aérienne
-250;Flèche acide de melf
-250;Sphère glaciale d'Otiluke
-300;Lecture des sentiements
-300;Vol sans ailes
-700;Appel d'esprit
-0;Immunité aux poisons
-0;Immunité aux maladie
+0;Immortalité elfique:
+0;Vision elfique:
+0;Vision dans le noir:
+0;Détection des passages secrets:
+0;Ailes d'avariel:
+0;Sensibilité à l'éléctricité:
+0;Ailes fragiles:
+0;Régénération rapide:
+100;Dextérité accrue:
+100;Lévitation:
+150;Ouïe fine:
+150;Lecture de la magie:
+200;Orientation aérienne:
+250;Flèche acide de melf:
+250;Sphère glaciale d'Otiluke:
+300;Lecture des sentiements:
+300;Vol sans ailes:
+700;Appel d'esprit:
+0;Immunité aux poisons:
+0;Immunité aux maladie:
 
 description
 "Les avariels sont un peuple d'elfes ailés ayant dominé le temps de l'avant déchéance par leur recherche sur les arcanes. Lors des grandes batailles de la première déchéance peu d'avariels survécurent et la grande majorité de leurs cités aériennes s'effondrèrent.
@@ -51,6 +51,12 @@ Bien que très avancés par comparaison à leur cousins  terrestre, les elfes ai
 Les avariels sont donc très isolés du reste du monde. Leurs cités sont parfois associées à des nids d'avemains mais leur contact avec le reste du monde s'arrête là.
 La majorité des avariels regardent avec dédains les peuples terrestre qu'ils considèrent comme souillé par Tan. Parfois quelques avariels décident d'apporter leur savoir et de permettre ainsi aux peuples inférieurs d'accéder à l'élévation mais ces individus sont rares.
 
-Les personnages avariels sont de très bon magiciens ou archer. Leur sensibilité envers les cieux leur permet de s'intéresser à la préservation de la nature afin de devenir rodeur ou druide. Le caractère paisible des communautés avariels font que rare sont ceux qui se découvrent un intérêt pour la nécromancie ou les divers extrémismes religieux." 
+Les personnages avariels sont de très bon magiciens ou archer. Leur sensibilité envers les cieux leur permet de s'intéresser à la préservation de la nature afin de devenir rodeur ou druide. Le caractère paisible des communautés avariels font que rare sont ceux qui se découvrent un intérêt pour la nécromancie ou les divers extrémismes religieux. 
 
-"Études des humanoïdes de l'entre-monde" par Ael le 3ème déchu
+Note de Maitre de séance :
+
+Description physique : Les avariels ont le corps d'un elfe mais ont une pair d'ailes dorsales blanches.
+
+Classes conseillées : Magicien ou archers
+
+Accessible pour joueur appréciant le "role-play"

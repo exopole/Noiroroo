@@ -1,0 +1,45 @@
+>Ronso
+
+statistique perception
+Précision:+0
+Chance:+0
+Esquive:+0
+Habileté:+15
+Intelligence:+0
+Endurance:+15
+Furtivité:+0
+Charisme:+0
+
+statistique brute
+Vie:+0;3D10
+Force:+1;3D6
+Rapidité:+3;2D6
+Dextérité:+0;3D6
+Résistance:+1;1D6
+Esprit:+0;1D6
+Déplacement: 7;+1/5_Rapidité
+
+compétence
+0;Subergeable par la colère
+75;Force accrue du ronso
+100;Dextérité accrue du ronso
+100;Méditation 
+250;Feux de maigos
+
+Description :
+
+"Nous devons beaucoup au peuple Ronso. Sans eux les peuples unifiés de Mantalivia n'aurait pas put voir le jour.
+
+Au lendemain de la déchéance, Daxir et ses troupes ont pris le contrôle de Sun et Cen. Les non-humains et toute créature de magie ont dans un premier temps été chassés. Forok était à l'époque une vaste forêt inhospitalière et les bastions humains tombaient les uns après les autres.
+
+Notre dernier espoir résidait dans Manta. Cependant c'est le soutiens des tribus Ronsos qui nous ont permis de survivre. Sans eux, nous n'aurions jamais passé le premier hiver..."
+
+"Le grand éxode post-déchéance" par Delénarh, chef du 47ème bataillon des peuples libres 
+
+Note de Maitre de séance :
+
+Description physique : Les ronsos sont des humanoïdes de grande taille (2m10 à 2m20 à l'âge adulte). Ces humanoïdes aux traits félins ont un pelage bleu, vert ou noir. Les mâles ont une corne sur le front.
+
+Classes conseillées : Toute classe
+
+Accessible pour joueur débutant
