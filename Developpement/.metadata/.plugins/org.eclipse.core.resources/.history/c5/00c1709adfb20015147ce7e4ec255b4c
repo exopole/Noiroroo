@@ -1,0 +1,12 @@
+
+public class De {
+	
+	public De(String de) {
+		// TODO Auto-generated constructor stub
+		String[]stringArray = new String[2];
+		stringArray = de.split("D");
+		
+		
+		
+	}
+}

@@ -1,0 +1,169 @@
+import java.io.BufferedInputStream;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Vector;
+
+
+public class Race {
+	
+	private String name;
+	private String description;
+	// vecteur regroupant toute les statistique de perception : Precision, Chance, Esquive, Habilite, Inteligence, Furtivite, Charisme
+	private Vector<Double> statPerception;
+	// Vecteur regroupant toutes les statistiques Brute : Vie, Force, Rapidite, Dexterite, Resistance, Esprit, Deplacement
+	private Vector<Vector<Double>> statBrute;
+	// Vecteur regroupant toutes les competences possibles avec le nombre de point d'exp besoin
+	private Vector<Vector<String>> competences;
+
+	private String apparence;
+	// classe conseille par le maitre de jeu avec cette classe
+	private String bestClass;
+	// niveau de joueur conseille (ex : experimente)
+	private String access;
+
+	
+	public Race(String name, String description, Vector<Double> statPerception, Vector<Vector<Double>> statBrute,
+			Vector<Vector<String>> competences, String apparence, String bestClass, String access) {
+		this.name = name;
+		this.statPerception = statPerception;
+		this.statBrute = statBrute;
+		this.competences = competences;
+		this.description = description;
+		this.apparence = apparence;
+		this.bestClass = bestClass;
+		this.access = access;
+	}
+	
+	public Race(String nameFile) throws IOException {
+		
+	}
+
+	/////////////  getter //////////
+	public String getName() {
+		return name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	//getter pour les statistiques de perceptions
+	
+	public Double getPrecision() {
+		return statPerception.get(0);
+	}
+
+	public Double getChance() {
+		return statPerception.get(1);
+	}
+
+	public Double getEsquive() {
+		return statPerception.get(2);
+	}
+
+	public Double getHabilite() {
+		return statPerception.get(3);
+	}
+
+
+	public Double getIntelligence() {
+		return statPerception.get(4);
+	}
+
+	public Double getEndurance() {
+		return statPerception.get(5);
+	}
+
+	public Double getFurtivite() {
+		return statPerception.get(6);
+	}
+
+	public Double getCharisme() {
+		return statPerception.get(7);
+	}
+
+	
+	// getter pour les statistique Brutes
+	
+	public Vector<Double> getVie() {
+		return statBrute.get(0);
+	}
+
+	public Vector<Double> getForce() {
+		return statBrute.get(1);
+	}
+
+	public Vector<Double> getRapidite() {
+		return statBrute.get(2);
+	}
+
+	public Vector<Double> getDexterite() {
+		return statBrute.get(3);
+	}
+
+	public Vector<Double> getResistance() {
+		return statBrute.get(4);
+	}
+
+	public Vector<Double> getEsprit() {
+		return statBrute.get(5);
+	}
+
+	public Vector<Double> getDeplacement() {
+		return statBrute.get(6);
+	}
+
+	public Vector<Double> getStatPerception() {
+		return statPerception;
+	}
+
+
+	public Vector<Vector<Double>> getStatBrute() {
+		return statBrute;
+	}
+
+	// getter pour les compétences
+	public Vector<Vector<String>> getCompetences() {
+		return competences;
+	}
+
+	public Vector<String> getAllNameCompetences() {
+		Vector<String> newVector = new Vector<String>();
+		for (int i = 0; i < competences.size(); i++)
+			newVector.add(competences.get(i).get(0));
+
+		return newVector;
+	}
+
+	public Vector<Double> getAllXP() {
+		Vector<Double> newVector = new Vector<Double>();
+		for (int i = 0; i < competences.size(); i++)
+			newVector.add(Double.parseDouble(competences.get(i).get(1)));
+
+		return newVector;
+	}
+
+	public Vector<String> getCompetenceAndXpByNumber(int i) {
+		return competences.get(i);
+	}
+	
+	
+	// getter pour les notes du maitre de jeu
+	public String getAccess() {
+		return access;
+	}
+	
+	public String getApparence() {
+		return apparence;
+	}
+	
+	public String getBestClass() {
+		return bestClass;
+	}
+	
+	
+	////////////// parsing des fichiers ///////////////
+	
+}

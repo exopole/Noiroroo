@@ -1,0 +1,68 @@
+>Alchimiste
+
+Presentation
+Nombreuses sont les voies que peut emprunter l alchimiste. Expert en potion, maitre de l analyse des artefacts, pyrotechnicien, enchanteur de haut rang,  forgeron emerite, chirurgien reconnu ou juste un magicien du hasard.
+L alchimiste est neanmoins confronte à trois problematiques : il n’est pas possible de maitriser toutes les competences alchimique dans une vie, les sorts de l alchimiste sont couteux en materiel et toutes ses actions necessitent une certaine preparation.
+
+L alchimiste conviendra aux joueurs apprecient passer beaucoup de temps à planifier et à reflechir à leurs experimentations. Ce type de vocation convient plus generalement à des aventures de longue duree.
+
+statistique perception
+Precision:+10
+Chance:+20
+Esquive:+10
+Habilete:+20
+Intelligence:+15
+Endurance:+0
+Furtivite:+0
+Charisme:+10
+
+statistique brute
+Vie:-2;
+Force:+0;
+Rapidite:+3;
+Dexterite:+1;
+Resistance:+0;
+Esprit:+0;
+
+competence
+0;Pouvoir alchimique faible
+0;Identification des objets magiques
+0;Lecture de la magie
+0;Travail du metal mineur
+0;Travail de la pierre mineur
+0;Travail du verre mineur
+0;Travail du bois mineur
+0;Travail du cuir et du tissu mineur
+100;Travail du cuir et du tissu
+100;Travail du bois
+100;Travail du metal
+100;Travail de la pierre
+100;Travail du verre
+100;Depeçage
+200;Combinaison Alchimiste
+100;Chance accrue
+100;Habilete accrue
+125;Esprit accrue
+125;Resistance accrue
+200;Chance improbable
+300;Utilisation de parchemin
+400;Apprentissage de parchemin
+200;Transmutation bois mort/pierre
+200;Transmutation pierre/sable
+150;Arme enchantee
+150;Armure enchantee
+200;Creation de pierre elementale mineure
+100;Creation de sphere elementale mineur
+200;Identification de la flore
+100;Analyse de monstre
+100;Analyse des sorts
+10;Pouvoir alchimique accrue
+100;Concoction de potion de soin faible
+125;Concoction de potion explosive
+100;Telepathie 
+100;Telekinesie
+100;Utilisation des orbes d enchantement 
+100;evaluation de caracteristiques de survie 
+100;evaluation de caracteristiques de frappe 
+100;evaluation de caracteristiques de perception 
+50;Analyse de l essence alchimique mineur

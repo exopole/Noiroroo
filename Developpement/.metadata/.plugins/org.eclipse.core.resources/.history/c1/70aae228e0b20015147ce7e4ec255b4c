@@ -1,0 +1,14 @@
+
+public class De {
+	private int type;
+	private int number;
+	public De(String de) {
+		// TODO Auto-generated constructor stub
+		String[]stringArray = new String[2];
+
+		stringArray = de.split("D");
+		type = Integer.parseInt(stringArray[1]);
+		number = Integer.parseInt(stringArray[0]);
+
+	}
+}

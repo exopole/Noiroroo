@@ -60,7 +60,7 @@ public class Classe {
 		this.statPerception.set(2, esquive);
 	}
 
-	public Double getHabilité() {
+	public Double getHabilite() {
 		return statPerception.get(3);
 	}
 
@@ -84,7 +84,7 @@ public class Classe {
 		this.statPerception.set(5, endurance);
 	}
 
-	public Double getFurtivité() {
+	public Double getFurtivite() {
 		return statPerception.get(6);
 	}
 

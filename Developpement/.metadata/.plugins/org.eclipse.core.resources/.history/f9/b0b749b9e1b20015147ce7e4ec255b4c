@@ -1,0 +1,25 @@
+import java.util.Random;
+
+public class De {
+	private int type;
+	private int number;
+	private int result;
+	
+	public De(String de) {
+		// TODO Auto-generated constructor stub
+		String[]stringArray = new String[2];
+
+		stringArray = de.split("D");
+		type = Integer.parseInt(stringArray[1]);
+		number = Integer.parseInt(stringArray[0]);
+		
+		Random rand = new Random();
+		result = rand.nextInt(type) + 1;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return number + "D" + type + " = " + result ;
+	}
+}

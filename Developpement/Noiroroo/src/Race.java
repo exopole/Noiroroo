@@ -1,201 +1,187 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
 import java.util.Vector;
 
 
 public class Race {
-	private String name; 
+	Vector<String> fileContenant;
+	private String name;
 	private String description;
-	private Vector<Double> statPerception;
-	private Vector< Vector< Double> > statBrute;
-	private Vector<Vector <String>> competences;
+	// vecteur regroupant toute les statistique de perception : Precision, Chance, Esquive, Habilite, Inteligence, Furtivite, Charisme
+	private Vector<Integer> statPerception;
+	// Vecteur regroupant toutes les statistiques Brute : Vie, Force, Rapidite, Dexterite, Resistance, Esprit, Deplacement
+	private Vector<Vector<String>> statBrute;
+	// Vecteur regroupant toutes les competences possibles avec le nombre de point d'exp besoin
+	private Vector<Vector<String>> competences;
+
+	private String apparence;
+	// classe conseille par le maitre de jeu avec cette classe
+	private String bestClass;
+	// niveau de joueur conseille (ex : experimente)
+	private String access;
+
 	
-	public Race(String name, String description, Vector<Double> statPerception, Vector< Vector< Double> > statBrute, Vector<Vector <String>> competences){
+	public Race(String name, String description, Vector<Integer> statPerception, Vector<Vector<String>> statBrute,
+			Vector<Vector<String>> competences, String apparence, String bestClass, String access) {
 		this.name = name;
 		this.statPerception = statPerception;
 		this.statBrute = statBrute;
 		this.competences = competences;
 		this.description = description;
+		this.apparence = apparence;
+		this.bestClass = bestClass;
+		this.access = access;
 	}
 	
+	public Race(String nameFile) {
+		Vector<String> fileContenant = ParsingFile.readFile(nameFile);
+		name = fileContenant.get(0);
+		statPerception =ParsingVector.stringToInt(ParsingString.split(fileContenant.get(1), ";"));	
+		statBrute = ParsingString.split2time(fileContenant.get(2), ";", ",");
+		competences =ParsingString.split2time(fileContenant.get(3), ";", ",");
+		description = fileContenant.get(4);
+		apparence = fileContenant.get(5);
+		bestClass = fileContenant.get(6);
+		access = fileContenant.get(7);
+		System.out.println(description);
+		System.out.println(apparence);
+		System.out.println(bestClass);
+		System.out.println(access);
+	}
+
+	private void setPerception(){
+		Vector<Vector<Integer>> afterParse =ParsingVector.vectOfVectstringToInteger(ParsingString.split2time(fileContenant.get(1), ";", ","));
+		
+
+	}
 	
+	/////////////  getter //////////
 	public String getName() {
 		return name;
 	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-	
 
 	public String getDescription() {
 		return description;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-
-	public Double getPrecision() {
+	//getter pour les statistiques de perceptions
+	
+	public Integer getPrecision() {
 		return statPerception.get(0);
 	}
 
-	public void setPrecision(Double precision) {
-		this.statPerception.set(0, precision);
-	}
-
-	public Double getChance() {
+	public Integer getChance() {
 		return statPerception.get(1);
 	}
 
-	public void setChance(Double chance) {
-		this.statPerception.set(1, chance);
-	}
-
-	public Double getEsquive() {
+	public Integer getEsquive() {
 		return statPerception.get(2);
 	}
 
-	public void setEsquive(Double esquive) {
-		this.statPerception.set(2, esquive);
-	}
-
-	public Double getHabilité() {
+	public Integer getHabilite() {
 		return statPerception.get(3);
 	}
 
-	public void setHabilite(Double habilite) {
-		this.statPerception.set(3, habilite);
-	}
 
-	public Double getIntelligence() {
+	public Integer getIntelligence() {
 		return statPerception.get(4);
 	}
 
-	public void setIntelligence(Double intelligence) {
-		this.statPerception.set(4, intelligence);
-	}
-	
-	public Double getEndurance() {
+	public Integer getEndurance() {
 		return statPerception.get(5);
 	}
 
-	public void setEndurance(Double endurance) {
-		this.statPerception.set(5, endurance);
-	}
-
-	public Double getFurtivité() {
+	public Integer getFurtivite() {
 		return statPerception.get(6);
 	}
 
-	public void setFurtivite(Double furtivite) {
-		this.statPerception.set(6, furtivite);
-	}
-
-	public Double getCharisme() {
+	public Integer getCharisme() {
 		return statPerception.get(7);
 	}
 
-	public void setCharisme(Double charisme) {
-		this.statPerception.set(7, charisme);
-	}
-
-	public Vector<Double> getVie() {
+	
+	// getter pour les statistique Brutes
+	
+	public Vector<String> getVie() {
 		return statBrute.get(0);
 	}
 
-	public void setVie(Vector<Double> vie) {
-		this.statBrute.set(0, vie);
-	}
-
-	public Vector<Double> getForce() {
+	public Vector<String> getForce() {
 		return statBrute.get(1);
 	}
 
-	public void setForce(Vector<Double> force) {
-		this.statBrute.set(1, force);
-	}
-
-	public Vector<Double> getRapidite() {
+	public Vector<String> getRapidite() {
 		return statBrute.get(2);
 	}
 
-	public void setRapidite(Vector<Double> rapidite) {
-		this.statBrute.set(2, rapidite);
-	}
-
-	public Vector<Double> getDexterite() {
+	public Vector<String> getDexterite() {
 		return statBrute.get(3);
 	}
 
-	public void setDexterite(Vector<Double> dexterite) {
-		this.statBrute.set(3, dexterite);
-	}
-
-	public Vector<Double> getResistance() {
+	public Vector<String> getResistance() {
 		return statBrute.get(4);
 	}
 
-	public void setResistance(Vector<Double> resistance) {
-		this.statBrute.set(4, resistance);
-	}
-
-	public Vector<Double> getEsprit() {
+	public Vector<String> getEsprit() {
 		return statBrute.get(5);
 	}
 
-	public void setEsprit(Vector<Double> esprit) {
-		this.statBrute.set(5, esprit);
-	}
-	
-	public Vector<Double> getDeplacement() {
+	public Vector<String> getDeplacement() {
 		return statBrute.get(6);
 	}
 
-	public void setDeplacement(Vector<Double> deplacement) {
-		this.statBrute.set(6, deplacement);
-	}
-	
-	public Vector<Double> getStatPerception() {
+	public Vector<Integer> getStatPerception() {
 		return statPerception;
 	}
 
-	public void setStatPerception(Vector<Double> statPerception) {
-		this.statPerception = statPerception;
-	}
 
-	public Vector<Vector<Double>> getStatBrute() {
+	public Vector<Vector<String>> getStatBrute() {
 		return statBrute;
 	}
 
-	public void setStatBrute(Vector<Vector<Double> > statBrute) {
-		this.statBrute = statBrute;
-	}
-
-	public Vector<Vector <String>> getCompetences() {
+	// getter pour les comp�tences
+	public Vector<Vector<String>> getCompetences() {
 		return competences;
 	}
-	
+
 	public Vector<String> getAllNameCompetences() {
 		Vector<String> newVector = new Vector<String>();
-		for (int i = 0; i < competences.size(); i++) 
+		for (int i = 0; i < competences.size(); i++)
 			newVector.add(competences.get(i).get(0));
-		
+
 		return newVector;
-	}
-	
-	public Vector<Double> getAllXP() {
-		Vector<Double> newVector = new Vector<Double>();
-		for (int i = 0; i < competences.size(); i++) 
-			newVector.add(Double.parseDouble(competences.get(i).get(1)));
-		
-		return newVector;
-	}
-	
-	public Vector<String> getCompetenceAndXpByNumber(int i){
-		return competences.get(i);
 	}
 
-	public void setCompetences(Vector<Vector <String>> competences) {
-		this.competences = competences;
+	public Vector<Double> getAllXP() {
+		Vector<Double> newVector = new Vector<Double>();
+		for (int i = 0; i < competences.size(); i++)
+			newVector.add(Double.parseDouble(competences.get(i).get(1)));
+
+		return newVector;
 	}
+
+	public Vector<String> getCompetenceAndXpByNumber(int i) {
+		return competences.get(i);
+	}
+	
+	
+	// getter pour les notes du maitre de jeu
+	public String getAccess() {
+		return access;
+	}
+	
+	public String getApparence() {
+		return apparence;
+	}
+	
+	public String getBestClass() {
+		return bestClass;
+	}
+	
+	
+	////////////// parsing des fichiers ///////////////
+	
 }
