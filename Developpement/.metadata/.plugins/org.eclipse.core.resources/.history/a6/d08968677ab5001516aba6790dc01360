@@ -1,8 +1,0 @@
-
-public class ParsingString {
-	static private Vector<Vector<String>> split2time(String firstSplit, secondSplit){
-		Vector<String> interm = new Vector<String>();
-		Vector <Vector<String>> result = new Vector <Vector <String>>();  
-		return result;
-	}
-}
