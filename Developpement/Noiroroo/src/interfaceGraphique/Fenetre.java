@@ -1,8 +1,10 @@
 package interfaceGraphique;
 
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.DisplayMode;
+import java.awt.Graphics;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.GridBagConstraints;
@@ -11,7 +13,10 @@ import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class Fenetre extends JFrame{
@@ -20,6 +25,10 @@ public class Fenetre extends JFrame{
 	
 	 GraphicsDevice device = GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices()[0];
 	public Fenetre() {
+		ImageIcon icon = createImageIcon("images/middle.gif",
+                "a pretty but meaningless splat");
+		JLabel img = new JLabel(icon);
+		
 		// TODO Auto-generated constructor stub
 		this.setTitle("Noiroroo");
 	
@@ -40,6 +49,7 @@ public class Fenetre extends JFrame{
 		cell1.setBackground(Color.BLACK);
 		cell1.setPreferredSize(new Dimension(width/3, heigth));
 		
+		
 		//cellule 2 => celle de la Race
 		JPanel cell2 = new JPanel();
 		cell2.setBackground(Color.BLUE);
@@ -48,20 +58,22 @@ public class Fenetre extends JFrame{
 
 		
 		//Celule 3 => celle de la classe
+		
 		JPanel cell3 = new JPanel();
 		cell3.setBackground(Color.green);
 		cell3.setPreferredSize(new Dimension(width/3, 2*heigth/3));
+		cell3.add(img);
 		
 		//Cellule 4 => celle des compétences
-		JPanel cell4 = new JPanel();
-		cell4.setBackground(Color.yellow);
-		cell4.setPreferredSize(new Dimension(width/3*2, heigth/3));
+		Portrait cell4 = new Portrait("Portraits/ArmandeConcept.png",new Dimension(width/3*2, heigth/3) );
+//		cell4.setBackground(Color.yellow);
+//		cell4.setPreferredSize(new Dimension(width/3*2, heigth/3));
 
 		
 		
 		pan.setLayout(new GridBagLayout());
 		GridBagConstraints gbc = new GridBagConstraints();
-		gbc.insets = new Insets(1,1,1,1);
+		//gbc.insets = new Insets(1,1,1,1);
 		
 		gbc.gridx = 0;
 		gbc.gridy = 0;
@@ -110,6 +122,18 @@ public class Fenetre extends JFrame{
 	        this.setExtendedState(this.getExtendedState() | JFrame.MAXIMIZED_BOTH);
 	    }else{
 	        this.setExtendedState(JFrame.NORMAL);
+	    }
+	}
+	
+	/** Returns an ImageIcon, or null if the path was invalid. */
+	protected ImageIcon createImageIcon(String path,
+	                                           String description) {
+	    java.net.URL imgURL = getClass().getResource(path);
+	    if (imgURL != null) {
+	        return new ImageIcon(imgURL, description);
+	    } else {
+	        System.err.println("Couldn't find file: " + path);
+	        return null;
 	    }
 	}
 }
