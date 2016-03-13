@@ -43,6 +43,7 @@ public class Fenetre extends JFrame{
 		//this.getContentPane().setBackgroundImage(new Background("Portraits/ArmandeConcept.png"));
 		
 		pan.setPreferredSize(new Dimension(width, heigth));
+		/*
 		// toutes les cellules 
 		//cellule 1 => celle de gauche présentant les statisitiques
 		JPanel cell1 = new JPanel();
@@ -59,8 +60,10 @@ public class Fenetre extends JFrame{
 		
 		//Celule 3 => celle de la classe
 		
+		
+		
 		JPanel cell3 = new JPanel();
-		cell3.setBackground(Color.green);
+		//cell3.setBackground(Color.green);
 		cell3.setPreferredSize(new Dimension(width/3, 2*heigth/3));
 		cell3.add(img);
 		
@@ -68,6 +71,13 @@ public class Fenetre extends JFrame{
 		Portrait cell4 = new Portrait("Portraits/ArmandeConcept.png",new Dimension(width/3*2, heigth/3) );
 //		cell4.setBackground(Color.yellow);
 //		cell4.setPreferredSize(new Dimension(width/3*2, heigth/3));
+
+		
+		*/
+		PanneauPersonnage personnage = new PanneauPersonnage("Portraits/ArmandeConcept.png",new Dimension(width/3, heigth) );
+		PanneauRace race = new PanneauRace("Portraits/ArmandeConcept.png",new Dimension(width/3,2*heigth/3) );
+		PanneauClass classe = new PanneauClass("Portraits/ArmandeConcept.png",new Dimension(width/3, 2*heigth/3) );
+		PanneauCompetence competence = new PanneauCompetence("Portraits/ArmandeConcept.png",new Dimension(2*width/3, heigth/3) );
 
 		
 		
@@ -81,20 +91,20 @@ public class Fenetre extends JFrame{
 
 		gbc.gridheight = 3;
 		gbc.gridwidth = 1;
-		pan.add(cell1, gbc);
+		pan.add(personnage, gbc);
 		
 		gbc.gridx = 1;
 		gbc.gridheight = 2;
-		pan.add(cell2, gbc);
+		pan.add(race, gbc);
 		
 		gbc.gridx = 2;
-		pan.add(cell3, gbc);
+		pan.add(classe, gbc);
 		
 		gbc.gridx = 1;
 		gbc.gridy = 2;
 		gbc.gridheight = 1;
 		gbc.gridwidth = 2;
-		pan.add(cell4, gbc);
+		pan.add(competence, gbc);
 		
 		
 		
@@ -106,8 +116,6 @@ public class Fenetre extends JFrame{
 //		
 		this.getContentPane().add(pan);
 		this.pack();
-
-		
 		 this.setVisible(true);
 	}
 	
@@ -128,9 +136,8 @@ public class Fenetre extends JFrame{
 	/** Returns an ImageIcon, or null if the path was invalid. */
 	protected ImageIcon createImageIcon(String path,
 	                                           String description) {
-	    java.net.URL imgURL = getClass().getResource(path);
-	    if (imgURL != null) {
-	        return new ImageIcon(imgURL, description);
+	    if (path != null) {
+	        return new ImageIcon(path, description);
 	    } else {
 	        System.err.println("Couldn't find file: " + path);
 	        return null;
