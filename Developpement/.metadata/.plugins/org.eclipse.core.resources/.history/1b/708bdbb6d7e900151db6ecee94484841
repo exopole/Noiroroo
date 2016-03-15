@@ -1,0 +1,25 @@
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+
+public class Fenetre extends JFrame {
+
+	String result = "0";
+	public Fenetre() {
+		this.setTitle("Calculatrice");
+		
+		this.setSize(300, 200);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLocationRelativeTo(null);
+		
+		JLabel resultLabel = new JLabel(result);
+		this.getContentPane().add(resultLabel);
+		
+		
+		
+		
+		this.setVisible(true);
+	}
+}
