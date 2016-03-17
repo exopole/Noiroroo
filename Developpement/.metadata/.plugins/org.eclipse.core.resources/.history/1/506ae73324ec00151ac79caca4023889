@@ -1,0 +1,29 @@
+package interfaceGraphique;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.JPanel;
+
+public class Background extends JPanel{
+	String pathImage;
+	Dimension dim;
+	double width;
+	double height;
+	
+	public Background(Dimension dim) {
+		// TODO Auto-generated constructor stub
+		this.dim = dim;
+		this.setPreferredSize(dim);
+		width = dim.getWidth();
+		height = dim.getHeight();
+		
+		
+	}
+	public void paintComponent(Graphics g){
+		g.drawLine(arg0, arg1, arg2, arg3);
+	}    
+}

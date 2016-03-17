@@ -35,7 +35,7 @@ public class PanneauCompetence extends JPanel{
 		      Image img = ImageIO.read(new File(pathImage));
 		      //Pour une image de fond
 
-		      g.drawImage(img, 0,0, (int) width,(int) height, this);
+		     // g.drawImage(img, 0,0, (int) width,(int) height, this);
 		      g.drawString("Competence", 10, 20);
 
 		    } catch (IOException e) {

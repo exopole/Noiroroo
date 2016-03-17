@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 public class Fenetre extends JFrame{
 	//Background pan = new Background("Portraits/ArmandeConcept.png"); 
-	JPanel pan = new JPanel();
+	Background pan;
 	
 	 GraphicsDevice device = GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices()[0];
 	public Fenetre() {
@@ -42,18 +42,18 @@ public class Fenetre extends JFrame{
 
 		//this.getContentPane().setBackgroundImage(new Background("Portraits/ArmandeConcept.png"));
 		
-		pan.setPreferredSize(new Dimension(width, heigth));
+		pan = new Background(new Dimension(width, heigth));
 	
-		PanneauPersonnage personnage = new PanneauPersonnage("Portraits/ArmandeConcept.png",new Dimension(width/3, heigth) );
-		PanneauRace race = new PanneauRace("Portraits/ArmandeConcept.png",new Dimension(width/3,2*heigth/3) );
-		PanneauClass classe = new PanneauClass("Portraits/ArmandeConcept.png",new Dimension(width/3, 2*heigth/3) );
-		PanneauCompetence competence = new PanneauCompetence("Portraits/ArmandeConcept.png",new Dimension(2*width/3, heigth/3) );
+		PanneauPersonnage personnage = new PanneauPersonnage("Portraits/ArmandeConcept.png",new Dimension((width/3)-1, -1+heigth) );
+		PanneauRace race = new PanneauRace("Portraits/ArmandeConcept.png",new Dimension(-1+width/3,-1+2*heigth/3) );
+		PanneauClass classe = new PanneauClass("Portraits/ArmandeConcept.png",new Dimension(-1+width/3,-1+ 2*heigth/3) );
+		PanneauCompetence competence = new PanneauCompetence("Portraits/ArmandeConcept.png",new Dimension(-1+2*width/3,-1+ heigth/3) );
 
 		
 		
 		pan.setLayout(new GridBagLayout());
 		GridBagConstraints gbc = new GridBagConstraints();
-		//gbc.insets = new Insets(1,1,1,1);
+
 		
 		gbc.gridx = 0;
 		gbc.gridy = 0;

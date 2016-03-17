@@ -1,5 +1,6 @@
 package interfaceGraphique;
 
+import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -7,7 +8,10 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
 
 public class PanneauPersonnage extends JPanel{
 
@@ -15,6 +19,8 @@ public class PanneauPersonnage extends JPanel{
 	Dimension dim;
 	double width;
 	double height;
+	JLabel nameLabel = new JLabel("Nom : ");
+	JTextField name = new JTextField("Pseudonyme");
 	
 
 	public PanneauPersonnage(String path, Dimension dim) {
@@ -24,6 +30,10 @@ public class PanneauPersonnage extends JPanel{
 		this.setPreferredSize(dim);
 		width = dim.getWidth();
 		height = dim.getHeight();
+		this.add(nameLabel);
+		this.add(name);
+		this.add(new JRadioButton("female"));
+		this.add(new JRadioButton("male"));
 		
 		System.out.println(dim.getWidth());
 		System.out.println(dim.getHeight());
@@ -33,9 +43,9 @@ public class PanneauPersonnage extends JPanel{
 		    try {
 		      Image img = ImageIO.read(new File(pathImage));
 		      //Pour une image de fond
-		      
-		      g.drawImage(img, 0,0, (int) width,(int) height, this);
-		      g.drawString("Personnage", 10, 20);
+		     
+		      //g.drawImage(img, 0,0, (int) width,(int) height, this);
+		      //g.drawString("Personnage", 10, 20);
 
 		    } catch (IOException e) {
 		      e.printStackTrace();

@@ -1,4 +1,5 @@
 package interfaceGraphique;
+import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.io.File;
@@ -9,19 +10,23 @@ import javax.swing.JPanel;
 
 public class Background extends JPanel{
 	String pathImage;
+	Dimension dim;
+	int width;
+	int height;
 	
-	public Background(String path) {
+	public Background(Dimension dim) {
 		// TODO Auto-generated constructor stub
-		pathImage = path;
+		this.dim = dim;
+		this.setPreferredSize(dim);
+		width = (int) dim.getWidth();
+		height =(int) dim.getHeight();
+		
 		
 	}
-	  public void paintComponent(Graphics g){
-		    try {
-		      Image img = ImageIO.read(new File(pathImage));
-		      //Pour une image de fond
-		      g.drawImage(img, 0,0,this.getWidth(), this.getHeight(),  this);
-		    } catch (IOException e) {
-		      e.printStackTrace();
-		    }                
-		  }    
+	public void paintComponent(Graphics g){
+		g.drawLine(width/3, 0, width/3, 2*height/3);
+		g.drawLine(2*width/3, 0, 2*width/3, 2*height/3);
+		g.drawLine(0, 2*height/3, width, 2*height/3);
+		
+	}    
 }
