@@ -1,7 +1,8 @@
 import java.util.Vector;
+
 import complement.*;
+import fenetre.Fenetre;
 import informations.*;
-import interfaceGraphique.Fenetre;
 import parsing.*;
 
 public class Main {
