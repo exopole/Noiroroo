@@ -30,6 +30,11 @@ public class PanneauRace extends JPanel{
 		System.out.println(dim.getWidth());
 		System.out.println(dim.getHeight());
 		
+		if (full)
+		{
+			
+		}
+		
 	}
 	public void paintComponent(Graphics g){
 		try {

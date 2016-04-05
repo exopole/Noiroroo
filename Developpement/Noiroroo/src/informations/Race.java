@@ -12,9 +12,9 @@ public class Race {
 	private String name;
 	private String description;
 	// vecteur regroupant toute les statistique de perception : Precision, Chance, Esquive, Habilite, Inteligence, Furtivite, Charisme
-	private Vector<Integer> statPerception;
+	private PerceptionRace statPerception;
 	// Vecteur regroupant toutes les statistiques Brute : Vie, Force, Rapidite, Dexterite, Resistance, Esprit, Deplacement
-	private Vector<Vector<String>> statBrute;
+	private BruteRace statBrute;
 	// Vecteur regroupant toutes les competences possibles avec le nombre de point d'exp besoin
 	private Vector<Vector<String>> competences;
 
@@ -25,23 +25,13 @@ public class Race {
 	private String access;
 
 	
-	public Race(String name, String description, Vector<Integer> statPerception, Vector<Vector<String>> statBrute,
-			Vector<Vector<String>> competences, String apparence, String bestClass, String access) {
-		this.name = name;
-		this.statPerception = statPerception;
-		this.statBrute = statBrute;
-		this.competences = competences;
-		this.description = description;
-		this.apparence = apparence;
-		this.bestClass = bestClass;
-		this.access = access;
-	}
+
 	
 	public Race(String nameFile) {
 		Vector<String> fileContenant = ParsingFile.readFile(nameFile);
 		name = fileContenant.get(0);
-		statPerception =ParsingVector.stringToInt(ParsingString.split(fileContenant.get(1), ";"));	
-		statBrute = ParsingString.split2time(fileContenant.get(2), ";", ",");
+		statPerception = new PerceptionRace(fileContenant.get(1));	
+		statBrute = new BruteRace(fileContenant.get(2));
 		competences =ParsingString.split2time(fileContenant.get(3), ";", ",");
 		description = fileContenant.get(4);
 		apparence = fileContenant.get(5);
@@ -49,11 +39,6 @@ public class Race {
 		access = fileContenant.get(7);
 	}
 
-	private void setPerception(){
-		Vector<Vector<Integer>> afterParse =ParsingVector.vectOfVectstringToInteger(ParsingString.split2time(fileContenant.get(1), ";", ","));
-		
-
-	}
 	
 	/////////////  getter //////////
 	public String getName() {
@@ -67,43 +52,43 @@ public class Race {
 	//getter pour les statistiques de perceptions
 	
 	public Integer getPrecision() {
-		return statPerception.get(0);
+		return statPerception.getPrecision();
 	}
 
 	public Integer getChance() {
-		return statPerception.get(1);
+		return statPerception.getChance();
 	}
 
 	public Integer getEsquive() {
-		return statPerception.get(2);
+		return statPerception.getEsquive();
 	}
 
 	public Integer getHabilite() {
-		return statPerception.get(3);
+		return statPerception.getHabilite();
 	}
 
 
 	public Integer getIntelligence() {
-		return statPerception.get(4);
+		return statPerception.getIntelligence();
 	}
 
 	public Integer getEndurance() {
-		return statPerception.get(5);
+		return statPerception.getEndurance();
 	}
 
 	public Integer getFurtivite() {
-		return statPerception.get(6);
+		return statPerception.getFurtivite();
 	}
 
 	public Integer getCharisme() {
-		return statPerception.get(7);
+		return statPerception.getCharisme();
 	}
 
 	
 	// getter pour les statistique Brutes
 	
 	public Vector<String> getVie() {
-		return statBrute.get(0);
+		return statBrute.getV;
 	}
 
 	public Vector<String> getForce() {
@@ -139,7 +124,7 @@ public class Race {
 		return statBrute;
 	}
 
-	// getter pour les compétences
+	// getter pour les competences
 	public Vector<Vector<String>> getCompetences() {
 		return competences;
 	}
