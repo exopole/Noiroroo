@@ -1,7 +1,9 @@
+
 import java.util.Vector;
 
 import complement.*;
 import fenetre.Fenetre;
+import fenetre.FenetreRace;
 import informations.*;
 import parsing.*;
 
@@ -25,29 +27,30 @@ public class Main {
 		}
 		*/
 		
+		
 		// essaye de la classe Race
 		//Vie, Force, Rapidite, Dexterite, Resistance, Esprit, Deplacement
 		/*
 		Race newRace = new Race("Race/Ardamirs.txt");
-		System.out.println(newRace.getName() + "\nStatistique de perception : \n\tPresicision " + newRace.getPrecision());
-		System.out.println("\tChance " + newRace.getChance() );
-		System.out.println("\tEsquive " + newRace.getEsquive() );
-		System.out.println("\tHabilite " + newRace.getHabilite() );
-		System.out.println("\tintellignece " + newRace.getIntelligence() );
-		System.out.println("\tEndurance "+ newRace.getEndurance());
-		System.out.println("\tFurtivite " + newRace.getFurtivite() );
-		System.out.println("\tCharisme " + newRace.getCharisme() );
-		
-		System.out.println("Statistique Brute : ");
-		System.out.println("\tVie " + newRace.getVie() );
-		System.out.println("\tForce " + newRace.getForce());
-		System.out.println("\tRapidite " + newRace.getRapidite() );
-		System.out.println("\tDexterite " + newRace.getDexterite() );
-		System.out.println("\tResistance " + newRace.getResistance() );
-		System.out.println("\tEsprit " + newRace.getEsprit());
-		System.out.println("\tDeplacement " + newRace.getDeplacement());
-		
+		newRace.getStatBrute().compute();
+		newRace.getStatPerception().compute();
+		System.out.println("Esprit : " + newRace.getStatBrute().getEsprit().getValue());
+		System.out.println("Deplacement : " + newRace.getStatBrute().getDeplacement().getValue());
+		System.out.println("Dexterite : " + newRace.getStatBrute().getDexterite().getValue());
+		System.out.println("Force : " + newRace.getStatBrute().getForce().getValue());
+		System.out.println("Rapidite : " + newRace.getStatBrute().getRapidite().getValue());
+		System.out.println("Resistance : " + newRace.getStatBrute().getResistance().getValue());
+		System.out.println("Vie : " + newRace.getStatBrute().getVie().getValue());
+		System.out.println("Chance : " + newRace.getStatPerception().getChance().getValue());
+		System.out.println("Charisme : " + newRace.getStatPerception().getCharisme().getValue());
+		System.out.println("Endurance : " + newRace.getStatPerception().getEndurance().getValue());
+		System.out.println("Esquive : " + newRace.getStatPerception().getEsquive().getValue());
+		System.out.println("Furtivite : " + newRace.getStatPerception().getFurtivite().getValue());
+		System.out.println("Habilite : " + newRace.getStatPerception().getHabilite().getValue());
+		System.out.println("Intelligence : " + newRace.getStatPerception().getIntelligence().getValue());
+		System.out.println("Precision : " + newRace.getStatPerception().getPrecision().getValue());
 		System.out.println("Competence : ");
+		
 		for (Vector<String> vect : newRace.getCompetences()) {
 			System.out.print("\t");
 			for (String str : vect) {
@@ -58,33 +61,35 @@ public class Main {
 		
 		System.out.println("Description : " + newRace.getDescription() );
 		System.out.println("Apparence : " + newRace.getApparence()	);
-		System.out.println("Classe conseillé : " + newRace.getBestClass());
+		System.out.println("Classe conseillï¿½ : " + newRace.getBestClass());
 		System.out.println("Niveau joueur : " + newRace.getAccess());
 		*/
 		
 		/// essaye de la class Classe
 		/*
 		Classe newClasse = new Classe("Classe/Alchimiste.txt");
-
+		newClasse.compute();
 		System.out.println(newClasse.getName() );
 		System.out.println("Description : " + newClasse.getDescription() );
 		System.out.println("Statistique de perception :");
-		System.out.println("\tPresicision " + newClasse.getPrecision() );
-		System.out.println("\tChance " + newClasse.getChance() );
-		System.out.println("\tEsquive " + newClasse.getEsquive() );
-		System.out.println("\tHabilite " + newClasse.getHabilite() );
-		System.out.println("\tintellignece " + newClasse.getIntelligence() );
-		System.out.println("\tEndurance "+ newClasse.getEndurance());
-		System.out.println("\tFurtivite " + newClasse.getFurtivite() );
-		System.out.println("\tCharisme " + newClasse.getCharisme() );
+		System.out.println("\tPresicision " + newClasse.getStatPerception().getPrecision().getValue() );
+		System.out.println("\tChance " + newClasse.getStatPerception().getPrecision().getValue() );
+		System.out.println("\tEsquive " + newClasse.getStatPerception().getEsquive().getValue() );
+		System.out.println("\tHabilite " + newClasse.getStatPerception().getHabilite().getValue() );
+		System.out.println("\tintellignece " + newClasse.getStatPerception().getIntelligence().getValue() );
+		System.out.println("\tEndurance "+ newClasse.getStatPerception().getEndurance().getValue());
+		System.out.println("\tFurtivite " + newClasse.getStatPerception().getFurtivite().getValue() );
+		System.out.println("\tCharisme " + newClasse.getStatPerception().getFurtivite().getValue() );
 		
 		System.out.println("Statistique Brute : ");
-		System.out.println("\tVie " + newClasse.getVie() );
-		System.out.println("\tForce " + newClasse.getForce());
-		System.out.println("\tRapidite " + newClasse.getRapidite() );
-		System.out.println("\tDexterite " + newClasse.getDexterite() );
-		System.out.println("\tResistance " + newClasse.getResistance() );
-		System.out.println("\tEsprit " + newClasse.getEsprit());
+		System.out.println("\tVie " + newClasse.getStatBrute().getVie().getValue() );
+		System.out.println("\tForce " + newClasse.getStatBrute().getForce().getValue());
+		System.out.println("\tRapidite " + newClasse.getStatBrute().getRapidite().getValue() );
+		System.out.println("\tDexterite " + newClasse.getStatBrute().getDexterite().getValue() );
+		System.out.println("\tResistance " + newClasse.getStatBrute().getResistance().getValue() );
+		System.out.println("\tEsprit " + newClasse.getStatBrute().getEsprit().getValue());
+		
+		
 		
 		System.out.println("Competence : ");
 		for (Vector<String> vect : newClasse.getCompetences()) {
@@ -97,7 +102,7 @@ public class Main {
 		
 		*/
 		
-		Fenetre fen = new Fenetre();
+		//FenetreRace fen = new FenetreRace();
 
 	}
 

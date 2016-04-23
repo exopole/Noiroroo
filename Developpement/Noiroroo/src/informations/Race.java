@@ -6,15 +6,18 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.Vector;
 import parsing.*;
+import statistiques.StatistiqueBruteClasse;
+import statistiques.StatistiqueBruteRace;
+import statistiques.StatistiquePerception;
 
 public class Race {
 	Vector<String> fileContenant;
 	private String name;
 	private String description;
 	// vecteur regroupant toute les statistique de perception : Precision, Chance, Esquive, Habilite, Inteligence, Furtivite, Charisme
-	private PerceptionRace statPerception;
+	private StatistiquePerception statPerception;
 	// Vecteur regroupant toutes les statistiques Brute : Vie, Force, Rapidite, Dexterite, Resistance, Esprit, Deplacement
-	private BruteRace statBrute;
+	private StatistiqueBruteRace statBrute;
 	// Vecteur regroupant toutes les competences possibles avec le nombre de point d'exp besoin
 	private Vector<Vector<String>> competences;
 
@@ -23,6 +26,8 @@ public class Race {
 	private String bestClass;
 	// niveau de joueur conseille (ex : experimente)
 	private String access;
+	
+	private Boolean compute = false;
 
 	
 
@@ -30,8 +35,8 @@ public class Race {
 	public Race(String nameFile) {
 		Vector<String> fileContenant = ParsingFile.readFile(nameFile);
 		name = fileContenant.get(0);
-		statPerception = new PerceptionRace(fileContenant.get(1));	
-		statBrute = new BruteRace(fileContenant.get(2));
+		statPerception = new StatistiquePerception(fileContenant.get(1));	
+		statBrute = new StatistiqueBruteRace(fileContenant.get(2));
 		competences =ParsingString.split2time(fileContenant.get(3), ";", ",");
 		description = fileContenant.get(4);
 		apparence = fileContenant.get(5);
@@ -49,80 +54,22 @@ public class Race {
 		return description;
 	}
 
-	//getter pour les statistiques de perceptions
-	
-	public Integer getPrecision() {
-		return statPerception.getPrecision();
-	}
 
-	public Integer getChance() {
-		return statPerception.getChance();
-	}
-
-	public Integer getEsquive() {
-		return statPerception.getEsquive();
-	}
-
-	public Integer getHabilite() {
-		return statPerception.getHabilite();
-	}
-
-
-	public Integer getIntelligence() {
-		return statPerception.getIntelligence();
-	}
-
-	public Integer getEndurance() {
-		return statPerception.getEndurance();
-	}
-
-	public Integer getFurtivite() {
-		return statPerception.getFurtivite();
-	}
-
-	public Integer getCharisme() {
-		return statPerception.getCharisme();
-	}
-
-	
-	// getter pour les statistique Brutes
-	
-	public Vector<String> getVie() {
-		return statBrute.getV;
-	}
-
-	public Vector<String> getForce() {
-		return statBrute.get(1);
-	}
-
-	public Vector<String> getRapidite() {
-		return statBrute.get(2);
-	}
-
-	public Vector<String> getDexterite() {
-		return statBrute.get(3);
-	}
-
-	public Vector<String> getResistance() {
-		return statBrute.get(4);
-	}
-
-	public Vector<String> getEsprit() {
-		return statBrute.get(5);
-	}
-
-	public Vector<String> getDeplacement() {
-		return statBrute.get(6);
-	}
-
-	public Vector<Integer> getStatPerception() {
+	/**
+	 * @return the statPerception
+	 */
+	public StatistiquePerception getStatPerception() {
 		return statPerception;
 	}
 
 
-	public Vector<Vector<String>> getStatBrute() {
+	/**
+	 * @return the statBrute
+	 */
+	public StatistiqueBruteRace getStatBrute() {
 		return statBrute;
 	}
+
 
 	// getter pour les competences
 	public Vector<Vector<String>> getCompetences() {
@@ -163,7 +110,14 @@ public class Race {
 		return bestClass;
 	}
 	
-	
+	public void compute() {
+		if (compute == false)
+		{
+			statBrute.compute();
+			statPerception.compute();
+			compute = true;
+		}
+	}
 	////////////// parsing des fichiers ///////////////
 	
 }
