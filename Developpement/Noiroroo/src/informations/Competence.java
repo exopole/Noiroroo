@@ -1,4 +1,5 @@
 package informations;
+import java.io.File;
 import java.util.Vector;
 
 /**
@@ -64,6 +65,11 @@ public class Competence {
 		nature = stringSplit[3];
 		levelMax = Integer.parseInt(stringSplit[4]) ;
 		tempsIncantation = Double.parseDouble(stringSplit[5]);
+	}
+	
+	public Competence(File comp)
+	{
+		
 	}
 	
 	/**
