@@ -1,7 +1,15 @@
 package informations;
+import java.io.FileReader;
 import java.util.Vector;
+
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import parsing.*;
 import statistiques.StatistiqueBruteClasse;
+import statistiques.StatistiqueBruteRace;
 import statistiques.StatistiquePerception;
 
 
@@ -39,6 +47,7 @@ public class Classe {
 	 * Toutes les competences et xp associe disponible pour la classe, inchangeable
 	 * @see BruteClasse
 	 */
+	
 	private Vector<Vector <String>> competences;
 	
 	private Boolean compute = false;
@@ -48,12 +57,23 @@ public class Classe {
 	 * @param nameFile
 	 */
 	public Classe(String nameFile) {
-		Vector<String> fileContenant = ParsingFile.readFile(nameFile);
-		name = fileContenant.get(0);
-		description = fileContenant.get(1);
-		statPerception = new StatistiquePerception(fileContenant.get(2)) ;	
-		statBrute =new StatistiqueBruteClasse(fileContenant.get(3));	
-		competences =ParsingString.split2time(fileContenant.get(4), ";", ",");
+		
+		JSONParser parser = new JSONParser();
+
+    	try {
+    		 
+            Object obj = parser.parse(new FileReader(nameFile));
+ 
+            JSONObject jsonObject = (JSONObject) obj;
+    		name = (String) jsonObject.get("Name");
+    		statPerception = new StatistiquePerception((String) jsonObject.get("Perception"));	
+    		statBrute = new StatistiqueBruteClasse((String) jsonObject.get("Brute"));
+    		competences =ParsingString.split2time((String) jsonObject.get("Competence"), ";", ",");
+    		description = (String) jsonObject.get("Description");
+ 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 	}
 	
@@ -64,6 +84,8 @@ public class Classe {
 	public String getName() {
 		return name;
 	}
+	
+	
 
 	/**
 	 * retourne la description de la classe
@@ -72,6 +94,8 @@ public class Classe {
 	public String getDescription() {
 		return description;
 	}
+	
+	
 	/**
 	 * @return the statPerception
 	 */

@@ -2,9 +2,14 @@ package informations;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Vector;
+
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
 import parsing.*;
 import statistiques.StatistiqueBruteClasse;
 import statistiques.StatistiqueBruteRace;
@@ -31,7 +36,7 @@ public class Race {
 
 	
 
-	
+	/*
 	public Race(String nameFile) {
 		Vector<String> fileContenant = ParsingFile.readFile(nameFile);
 		name = fileContenant.get(0);
@@ -44,7 +49,32 @@ public class Race {
 		access = fileContenant.get(7);
 	}
 
+	*/
 	
+	public Race(String nameFile) {
+		
+		JSONParser parser = new JSONParser();
+
+    	try {
+    		 
+            Object obj = parser.parse(new FileReader(nameFile));
+ 
+            JSONObject jsonObject = (JSONObject) obj;
+    		name = (String) jsonObject.get("Name");
+    		statPerception = new StatistiquePerception((String) jsonObject.get("Perception"));	
+    		statBrute = new StatistiqueBruteRace((String) jsonObject.get("Brute"));
+    		competences =ParsingString.split2time((String) jsonObject.get("Competence"), ";", ",");
+    		description = (String) jsonObject.get("Description");
+    		apparence = (String) jsonObject.get("Description physique");
+    		bestClass = (String) jsonObject.get("Classe conseille");
+    		access = (String) jsonObject.get("Niveau de joueur");
+
+ 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+		
+	}
 	/////////////  getter //////////
 	public String getName() {
 		return name;
@@ -76,27 +106,6 @@ public class Race {
 		return competences;
 	}
 
-	public Vector<String> getAllNameCompetences() {
-		Vector<String> newVector = new Vector<String>();
-		for (int i = 0; i < competences.size(); i++)
-			newVector.add(competences.get(i).get(0));
-
-		return newVector;
-	}
-
-	public Vector<Double> getAllXP() {
-		Vector<Double> newVector = new Vector<Double>();
-		for (int i = 0; i < competences.size(); i++)
-			newVector.add(Double.parseDouble(competences.get(i).get(1)));
-
-		return newVector;
-	}
-
-	public Vector<String> getCompetenceAndXpByNumber(int i) {
-		return competences.get(i);
-	}
-	
-	
 	// getter pour les notes du maitre de jeu
 	public String getAccess() {
 		return access;
@@ -118,6 +127,9 @@ public class Race {
 			compute = true;
 		}
 	}
+	
+	
+	
 	////////////// parsing des fichiers ///////////////
 	
 }
