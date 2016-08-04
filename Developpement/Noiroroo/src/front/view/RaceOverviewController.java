@@ -211,5 +211,9 @@ public class RaceOverviewController implements Initializable {
     public int getRaceCurrent() {
         return raceCurrent;
     }
+    
+    public Race getRace(){
+        return races.get(raceCurrent);
+    }
 
 }

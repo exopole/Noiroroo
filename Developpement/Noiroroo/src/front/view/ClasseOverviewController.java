@@ -196,5 +196,9 @@ public class ClasseOverviewController implements Initializable {
     public int getRaceCurrent() {
         return classeCurrent;
     }
+    
+    public Classe getClasse(){
+        return classes.get(classeCurrent);
+    }
 
 }

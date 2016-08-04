@@ -155,4 +155,12 @@ public class CompetenceOverviewController {
         }
     }
 
+    public ObservableList<Competence> getCompetenceAll() {
+        return compList;
+    }
+
+    public ObservableList<Competence> getCompetenceChoisies() {
+        return compTook;
+    }
+
 }
